@@ -1,5 +1,5 @@
 <p>
-  <img src="assets/logo.svg" alt="Laya Orchestrator Banner" width="100%">
+  <img src="assets/logo.svg" alt="Laya Orchestrator Banner">
 </p>
 
 <p align="center">
