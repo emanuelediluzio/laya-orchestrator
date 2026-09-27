@@ -1,0 +1,23 @@
+title: "User Authentication Service"
+description: "Implement JWT authentication and password hashing service"
+target_directory: "./workspace_test"
+steps:
+  - id: "step-1-hash"
+    title: "Implement Password Hashing"
+    description: "Create hash_password and verify_password in auth/security.py"
+    files_to_modify:
+      - "auth/security.py"
+    verification_command: "python3 -c 'import sys; sys.exit(0)'"
+    acceptance_criteria:
+      - "Uses bcrypt or sha256"
+      - "Returns secure hex or hash string"
+
+  - id: "step-2-jwt"
+    title: "Implement JWT Token Generator"
+    description: "Create generate_token and decode_token in auth/jwt_handler.py"
+    files_to_modify:
+      - "auth/jwt_handler.py"
+    verification_command: "python3 -c 'import sys; sys.exit(0)'"
+    acceptance_criteria:
+      - "Encodes payload with secret key"
+      - "Validates expiry date"

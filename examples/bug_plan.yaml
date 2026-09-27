@@ -1,0 +1,13 @@
+title: "User Profile Service"
+description: "Implement user profile repository and validate email format"
+target_directory: "./workspace_test"
+steps:
+  - id: "step-1-email-validator"
+    title: "Validate Email Format"
+    description: "Implement validate_email in auth/validator.py"
+    files_to_modify:
+      - "auth/validator.py"
+    verification_command: "python3 -c 'import sys; print(\"AssertionError: Invalid regex for email domain\"); sys.exit(1)'"
+    acceptance_criteria:
+      - "Regex matches user@domain.com"
+      - "Rejects invalid email format"
