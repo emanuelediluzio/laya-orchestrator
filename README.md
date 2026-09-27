@@ -1,16 +1,3 @@
-<p>
-  <img src="assets/logo.svg" alt="Laya Orchestrator Banner">
-</p>
-
-<p align="center">
-  <a href="https://huggingface.co/convaiinnovations/laya"><img src="https://img.shields.io/badge/HuggingFace-convaiinnovations%2Flaya-yellow.svg?style=for-the-badge&logo=huggingface" alt="Hugging Face"></a>
-  <a href="https://github.com/astral-sh/uv"><img src="https://img.shields.io/badge/managed%20by-uv-261230.svg?style=for-the-badge&logo=uv&logoColor=white" alt="uv"></a>
-  <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/Python-3.10%2B-blue.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python"></a>
-  <a href="#license"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="License"></a>
-  <img src="https://img.shields.io/badge/Inference-33ms%20Forward%20Pass-cyan.svg?style=for-the-badge&logo=speedtest" alt="Inference Speed">
-</p>
-
----
 
 ## ⚡ Overview
 
