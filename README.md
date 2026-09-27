@@ -1,4 +1,4 @@
-<p align="center">
+<p>
   <img src="assets/logo.svg" alt="Laya Orchestrator Banner" width="100%">
 </p>
 
